@@ -5,17 +5,17 @@ personalInfo:
   loadFromEnv: false
 
   # if loadFromEnv is true, anything in personalInfo beside typeId is ignored
-  firstName: 'Bala Surya Satya Sai Phaneendra'
-  lastName: 'Sista'
+  firstName: 'John'
+  lastName: 'Doe'
   # Date of birth (MM/DD/YYYY)
-  dob: '01/30/1999'
+  dob: '01/01/2001'
   # Use real email to get appointment infomation
-  email: 'saihashmi269@gmail.com'
+  email: ''
   # Not really needed but good to have a real one
-  lastFourSSN: '8055'
+  lastFourSSN: '1001'
   # If you want to recieve notificaion through phone, if not keep blank
   # WARNING: Use number only (Ex: 111111111)
-  phoneNumber: '5512639669'
+  phoneNumber: ''
 
   # If you are doing new Texas DL appointment, you can leave this blank
   # Put your real Texas DL number here, if you are doing DL renewal appointments.
