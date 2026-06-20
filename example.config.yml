@@ -5,17 +5,17 @@ personalInfo:
   loadFromEnv: false
 
   # if loadFromEnv is true, anything in personalInfo beside typeId is ignored
-  firstName: 'John'
-  lastName: 'Doe'
+  firstName: 'Bala Surya Satya Sai Phaneendra'
+  lastName: 'Sista'
   # Date of birth (MM/DD/YYYY)
-  dob: '01/01/2001'
+  dob: '01/30/1999'
   # Use real email to get appointment infomation
-  email: ''
+  email: 'saihashmi269@gmail.com'
   # Not really needed but good to have a real one
-  lastFourSSN: '1001'
+  lastFourSSN: '8055'
   # If you want to recieve notificaion through phone, if not keep blank
   # WARNING: Use number only (Ex: 111111111)
-  phoneNumber: ''
+  phoneNumber: '5512639669'
 
   # If you are doing new Texas DL appointment, you can leave this blank
   # Put your real Texas DL number here, if you are doing DL renewal appointments.
@@ -24,21 +24,21 @@ personalInfo:
 
   # Serivce you needed at DPS. Check the full list on https://github.com/phamleduy04/texas-dps-scheduler/wiki/TypeId-list
   # If you need to apply for Texas DL you don't need to change it
-  typeId: 71
+  typeId: 81
 
 location:
   # Search DPS Locations by City Name, if City name is given, zipCode is ignored.
   # If you don't want to search by city name, set it to ['']
   cityName: ['']
   # Zipcode of your location. Can add more DPS location by using ',' for multiple zipcode
-  zipCode: ['75067', '75080']
+  zipCode: ['75024', 75010']
   # Choose your DPS location by yourself when running the application if set to true
   pickDPSLocation: false
   # Get appointment from all DPS location by distance from the zipcode, will auto skip this when pickDPSLocation is true
   miles: 15
   # Put empty [''] for any day
   # DPS is closed on weekends, so you can't book on Saturday and Sunday
-  preferredDays: ['Monday']
+  preferredDays: ['']
   # Put true/false without quotes if you want to book only same day appointment
   sameDay: false
   # Put how many day from today you want to book from start to end (7 is a good number)
